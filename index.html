@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halden — Solid Wood Dining Tables</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1663/1663982.png">
+</head>
+<body>
+
+  <div class="loader" aria-hidden="true">
+    <svg class="loader-table" viewBox="0 0 240 120">
+      <path class="loader-top" d="M10 30 H230" />
+      <path class="loader-apron" d="M30 42 H210" />
+      <path class="loader-leg loader-leg-left" d="M40 42 L46 112" />
+      <path class="loader-leg loader-leg-right" d="M200 42 L194 112" />
+    </svg>
+    <p class="loader-word">Halden</p>
+    <p class="loader-note">Tables made by hand since 1987</p>
+  </div>
+
+  <input type="checkbox" id="navToggle" class="nav-toggle">
+
+  <header class="header">
+    <div class="header-bar">
+      <ul class="nav nav-left">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#collection">Collection</a></li>
+        <li><a href="#planner">Planner</a></li>
+        <li><a href="#woods">Woods</a></li>
+      </ul>
+
+      <label for="navToggle" class="burger" aria-label="Open menu">
+        <span></span>
+        <span></span>
+      </label>
+
+      <a href="#home" class="logo">
+        <svg viewBox="0 0 40 24" aria-hidden="true">
+          <path d="M2 6 H38 M6 6 L8 22 M34 6 L32 22 M5 10 H35" />
+        </svg>
+        Halden
+      </a>
+
+      <div class="header-right">
+        <ul class="nav nav-right">
+          <li><a href="#craft">Craft</a></li>
+          <li><a href="#journal">Journal</a></li>
+          <li><a href="#account">Account</a></li>
+        </ul>
+        <button class="cart-btn" id="cartOpen" type="button" aria-label="Open cart">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M5 8h14l-1.2 11.2a1 1 0 0 1-1 .8H7.2a1 1 0 0 1-1-.8L5 8Z" />
+            <path d="M9 8V6a3 3 0 0 1 6 0v2" />
+          </svg>
+          <span class="cart-count" id="cartCount">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="nav mobile-nav">
+    <a href="#home">Home</a>
+    <a href="#collection">Collection</a>
+    <a href="#planner">Planner</a>
+    <a href="#woods">Woods</a>
+    <a href="#craft">Craft</a>
+    <a href="#journal">Journal</a>
+    <a href="#account">Account</a>
+  </nav>
+
+  <main>
+
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">Solid wood dining tables</p>
+          <h1>Tables built for the <em>long dinner.</em></h1>
+          <p class="hero-lead">Every Halden table is cut, joined and oiled by one maker in our workshop. Solid oak, walnut and ash, made to order and made to stay in the family.</p>
+          <div class="hero-actions">
+            <a href="#collection" class="btn btn-dark"><span>View collection</span></a>
+            <a href="#planner" class="btn btn-line"><span>Plan your table</span></a>
+          </div>
+          <dl class="hero-facts">
+            <div>
+              <dt>1987</dt>
+              <dd>Workshop founded</dd>
+            </div>
+            <div>
+              <dt>6 weeks</dt>
+              <dd>From order to home</dd>
+            </div>
+            <div>
+              <dt>25 years</dt>
+              <dd>Joint guarantee</dd>
+            </div>
+          </dl>
+        </div>
+
+        <figure class="hero-media">
+          <div class="measure measure-width">
+            <span>220 cm</span>
+          </div>
+          <div class="measure measure-height">
+            <span>75 cm</span>
+          </div>
+          <div class="hero-img">
+            <img src="https://images.unsplash.com/photo-1773754624815-17c169b8bb6b?auto=format&fit=crop&w=1400&q=80" alt="Formal dining room with a long wooden table">
+          </div>
+          <figcaption>The Arden in smoked oak, seats eight</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <div class="values">
+      <div class="container values-row">
+        <p>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c4 4 6 7 6 10a6 6 0 0 1-12 0c0-3 2-6 6-10Z" /><path d="M12 21v-8" /></svg>
+          FSC certified timber
+        </p>
+        <p>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16v4H4z" /><path d="M7 11v9M17 11v9" /></svg>
+          Mortise and tenon joints
+        </p>
+        <p>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h4l3 7 4-14 3 7h4" /></svg>
+          Hardwax oil finish
+        </p>
+        <p>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7" /><circle cx="7" cy="18" r="2" /><circle cx="17" cy="18" r="2" /></svg>
+          Free white glove delivery
+        </p>
+      </div>
+    </div>
+
+    <section class="collection section" id="collection">
+      <input type="radio" name="filter" id="showAll" checked>
+      <input type="radio" name="filter" id="show4">
+      <input type="radio" name="filter" id="show6">
+      <input type="radio" name="filter" id="show8">
+
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">The collection</p>
+            <h2>Six tables, <em>one standard.</em></h2>
+          </div>
+          <div class="filters">
+            <label for="showAll">All</label>
+            <label for="show4">Up to 4</label>
+            <label for="show6">Up to 6</label>
+            <label for="show8">8 and more</label>
+          </div>
+        </div>
+
+        <div class="products">
+          <article class="product seat-6">
+            <div class="product-img">
+              <img src="https://images.unsplash.com/photo-1604578762246-41134e37f9cc?auto=format&fit=crop&w=900&q=80" alt="Brown wooden table and chairs">
+              <ul class="product-spec">
+                <li><span>Wood</span> White oak</li>
+                <li><span>Size</span> 200 × 90 cm</li>
+                <li><span>Height</span> 75 cm</li>
+              </ul>
+            </div>
+            <div class="product-info">
+              <div>
+                <span class="product-tag">Seats 6</span>
+                <h3>Arden</h3>
+              </div>
+              <p class="price">$1,640</p>
+            </div>
+            <button class="add-btn" type="button" data-name="Arden table" data-price="1640">Add to cart</button>
+          </article>
+
+          <article class="product seat-4">
+            <div class="product-img">
+              <img src="https://images.unsplash.com/photo-1780659760416-3b62b5f18e11?auto=format&fit=crop&w=900&q=80" alt="Round dining table near large windows">
+              <ul class="product-spec">
+                <li><span>Wood</span> Ash</li>
+                <li><span>Size</span> Ø 120 cm</li>
+                <li><span>Height</span> 74 cm</li>
+              </ul>
+            </div>
+            <div class="product-info">
+              <div>
+                <span class="product-tag">Seats 4</span>
+                <h3>Sorrel</h3>
+              </div>
+              <p class="price">$1,290</p>
+            </div>
+            <button class="add-btn" type="button" data-name="Sorrel table" data-price="1290">Add to cart</button>
+          </article>
+
+          <article class="product seat-8">
+            <div class="product-img">
+              <img src="https://images.unsplash.com/photo-1764076327046-fe35f955cba1?auto=format&fit=crop&w=900&q=80" alt="Rustic wooden dining table with chairs">
+              <ul class="product-spec">
+                <li><span>Wood</span> Reclaimed oak</li>
+                <li><span>Size</span> 260 × 100 cm</li>
+                <li><span>Height</span> 76 cm</li>
+              </ul>
+            </div>
+            <div class="product-info">
+              <div>
+                <span class="product-tag">Seats 8</span>
+                <h3>Bram</h3>
+              </div>
+              <p class="price">$2,180</p>
+            </div>
+            <button class="add-btn" type="button" data-name="Bram table" data-price="2180">Add to cart</button>
+          </article>
+
+          <article class="product seat-4">
+            <div class="product-img">
+              <img src="https://images.unsplash.com/photo-1602872029708-84d970d3382b?auto=format&fit=crop&w=900&q=80" alt="White and brown wooden table with chairs">
+              <ul class="product-spec">
+                <li><span>Wood</span> Ash and lacquer</li>
+                <li><span>Size</span> 160 × 85 cm</li>
+                <li><span>Height</span> 75 cm</li>
+              </ul>
+            </div>
+            <div class="product-info">
+              <div>
+                <span class="product-tag">Seats 4</span>
+                <h3>Linnea</h3>
+              </div>
+              <p class="price">$1,150</p>
+            </div>
+            <button class="add-btn" type="button" data-name="Linnea table" data-price="1150">Add to cart</button>
+          </article>
+
+          <article class="product seat-6">
+            <div class="product-img">
+              <img src="https://images.unsplash.com/photo-1633505412556-82c0921e8f4a?auto=format&fit=crop&w=900&q=80" alt="Dining table in front of a window">
+              <ul class="product-spec">
+                <li><span>Wood</span> Black walnut</li>
+                <li><span>Size</span> 210 × 95 cm</li>
+                <li><span>Height</span> 75 cm</li>
+              </ul>
+            </div>
+            <div class="product-info">
+              <div>
+                <span class="product-tag">Seats 6</span>
+                <h3>Mira</h3>
+              </div>
+              <p class="price">$1,980</p>
+            </div>
+            <button class="add-btn" type="button" data-name="Mira table" data-price="1980">Add to cart</button>
+          </article>
+
+          <article class="product seat-8">
+            <div class="product-img">
+              <img src="https://images.unsplash.com/photo-1505409628601-edc9af17fda6?auto=format&fit=crop&w=900&q=80" alt="Brown wooden dining set inside a room">
+              <ul class="product-spec">
+                <li><span>Wood</span> Smoked oak</li>
+                <li><span>Size</span> 240 – 300 cm</li>
+                <li><span>Height</span> 75 cm</li>
+              </ul>
+            </div>
+            <div class="product-info">
+              <div>
+                <span class="product-tag">Seats 8 – 10</span>
+                <h3>Ellis Extending</h3>
+              </div>
+              <p class="price">$2,460</p>
+            </div>
+            <button class="add-btn" type="button" data-name="Ellis Extending table" data-price="2460">Add to cart</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="anatomy section" id="anatomy">
+      <div class="container anatomy-grid">
+        <div class="anatomy-text">
+          <p class="eyebrow">Anatomy of a table</p>
+          <h2>Four parts. <em>No screws you can see.</em></h2>
+          <p>Scroll and watch the table come together. Each part is shaped separately, then joined by hand with glue and oak pegs, the way tables were built a hundred years ago.</p>
+          <ol class="parts">
+            <li>
+              <span>01</span>
+              <div>
+                <b>Top</b>
+                <p>Four centimetre planks, matched by grain and edge glued.</p>
+              </div>
+            </li>
+            <li>
+              <span>02</span>
+              <div>
+                <b>Apron</b>
+                <p>A hidden frame that keeps the top flat for decades.</p>
+              </div>
+            </li>
+            <li>
+              <span>03</span>
+              <div>
+                <b>Joints</b>
+                <p>Mortise and tenon, locked with a wooden peg.</p>
+              </div>
+            </li>
+            <li>
+              <span>04</span>
+              <div>
+                <b>Legs</b>
+                <p>Tapered on two faces so the table looks lighter.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+
+        <div class="anatomy-stage">
+          <svg class="exploded" viewBox="0 0 600 380" aria-label="Exploded drawing of a table">
+            <g class="part part-top">
+              <rect x="40" y="70" width="520" height="30" rx="3" fill="#c9a274" />
+              <path class="grain" d="M50 78 Q180 74 300 79 T550 77 M50 86 Q160 90 290 85 T550 88 M50 93 Q210 90 330 94 T550 92" />
+              <path class="tag-line" d="M560 85 H585" />
+            </g>
+            <g class="part part-apron">
+              <rect x="90" y="100" width="420" height="26" fill="#b88d5e" />
+              <path d="M90 113 H510" class="detail" />
+            </g>
+            <g class="part part-pegs">
+              <circle cx="122" cy="113" r="4" />
+              <circle cx="478" cy="113" r="4" />
+            </g>
+            <g class="part part-legs">
+              <path d="M100 100 H136 L130 330 H108 Z" fill="#a97d50" />
+              <path d="M464 100 H500 L492 330 H470 Z" fill="#a97d50" />
+            </g>
+            <path class="floor" d="M20 334 H580" />
+          </svg>
+          <p class="stage-note">Arden frame, side view</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="planner section" id="planner">
+      <input type="radio" name="shape" id="sRect" checked>
+      <input type="radio" name="shape" id="sRound">
+      <input type="radio" name="shape" id="sOval">
+      <input type="radio" name="seats" id="n4">
+      <input type="radio" name="seats" id="n6" checked>
+      <input type="radio" name="seats" id="n8">
+      <input type="radio" name="finish" id="fOak" checked>
+      <input type="radio" name="finish" id="fWalnut">
+      <input type="radio" name="finish" id="fAsh">
+
+      <div class="container planner-grid">
+        <div class="planner-panel">
+          <p class="eyebrow">New &middot; Table planner</p>
+          <h2>Plan it before <em>we cut it.</em></h2>
+          <p class="planner-lead">Choose a shape, the number of guests and a finish. The floor plan shows exactly how the chairs will sit around your table.</p>
+
+          <div class="option-group">
+            <span class="option-label">Shape</span>
+            <div class="options">
+              <label for="sRect">Rectangle</label>
+              <label for="sRound">Round</label>
+              <label for="sOval">Oval</label>
+            </div>
+          </div>
+
+          <div class="option-group">
+            <span class="option-label">Guests</span>
+            <div class="options">
+              <label for="n4">4</label>
+              <label for="n6">6</label>
+              <label for="n8">8</label>
+            </div>
+          </div>
+
+          <div class="option-group">
+            <span class="option-label">Finish</span>
+            <div class="options">
+              <label for="fOak" class="swatch-label"><i class="swatch swatch-oak"></i>Oak</label>
+              <label for="fWalnut" class="swatch-label"><i class="swatch swatch-walnut"></i>Walnut</label>
+              <label for="fAsh" class="swatch-label"><i class="swatch swatch-ash"></i>Ash</label>
+            </div>
+          </div>
+
+          <div class="specs">
+            <div class="spec spec-rect-4">
+              <div><span>Shape</span><b>Rectangle</b></div>
+              <div><span>Size</span><b>140 × 80 cm</b></div>
+              <div><span>Seats</span><b>4 people</b></div>
+              <div><span>Price</span><b>$1,180</b></div>
+            </div>
+            <div class="spec spec-rect-6">
+              <div><span>Shape</span><b>Rectangle</b></div>
+              <div><span>Size</span><b>200 × 90 cm</b></div>
+              <div><span>Seats</span><b>6 people</b></div>
+              <div><span>Price</span><b>$1,640</b></div>
+            </div>
+            <div class="spec spec-rect-8">
+              <div><span>Shape</span><b>Rectangle</b></div>
+              <div><span>Size</span><b>260 × 95 cm</b></div>
+              <div><span>Seats</span><b>8 people</b></div>
+              <div><span>Price</span><b>$2,150</b></div>
+            </div>
+            <div class="spec spec-round-4">
+              <div><span>Shape</span><b>Round</b></div>
+              <div><span>Size</span><b>Ø 120 cm</b></div>
+              <div><span>Seats</span><b>4 people</b></div>
+              <div><span>Price</span><b>$1,290</b></div>
+            </div>
+            <div class="spec spec-round-6">
+              <div><span>Shape</span><b>Round</b></div>
+              <div><span>Size</span><b>Ø 150 cm</b></div>
+              <div><span>Seats</span><b>6 people</b></div>
+              <div><span>Price</span><b>$1,720</b></div>
+            </div>
+            <div class="spec spec-round-8">
+              <div><span>Shape</span><b>Round</b></div>
+              <div><span>Size</span><b>Ø 180 cm</b></div>
+              <div><span>Seats</span><b>8 people</b></div>
+              <div><span>Price</span><b>$2,240</b></div>
+            </div>
+            <div class="spec spec-oval-4">
+              <div><span>Shape</span><b>Oval</b></div>
+              <div><span>Size</span><b>170 × 100 cm</b></div>
+              <div><span>Seats</span><b>4 people</b></div>
+              <div><span>Price</span><b>$1,390</b></div>
+            </div>
+            <div class="spec spec-oval-6">
+              <div><span>Shape</span><b>Oval</b></div>
+              <div><span>Size</span><b>220 × 110 cm</b></div>
+              <div><span>Seats</span><b>6 people</b></div>
+              <div><span>Price</span><b>$1,860</b></div>
+            </div>
+            <div class="spec spec-oval-8">
+              <div><span>Shape</span><b>Oval</b></div>
+              <div><span>Size</span><b>270 × 120 cm</b></div>
+              <div><span>Seats</span><b>8 people</b></div>
+              <div><span>Price</span><b>$2,380</b></div>
+            </div>
+          </div>
+
+          <div class="buy-row">
+            <button class="add-btn buy buy-rect-4" type="button" data-name="Rectangle table, 4 seats" data-price="1180">Add this table to cart</button>
+            <button class="add-btn buy buy-rect-6" type="button" data-name="Rectangle table, 6 seats" data-price="1640">Add this table to cart</button>
+            <button class="add-btn buy buy-rect-8" type="button" data-name="Rectangle table, 8 seats" data-price="2150">Add this table to cart</button>
+            <button class="add-btn buy buy-round-4" type="button" data-name="Round table, 4 seats" data-price="1290">Add this table to cart</button>
+            <button class="add-btn buy buy-round-6" type="button" data-name="Round table, 6 seats" data-price="1720">Add this table to cart</button>
+            <button class="add-btn buy buy-round-8" type="button" data-name="Round table, 8 seats" data-price="2240">Add this table to cart</button>
+            <button class="add-btn buy buy-oval-4" type="button" data-name="Oval table, 4 seats" data-price="1390">Add this table to cart</button>
+            <button class="add-btn buy buy-oval-6" type="button" data-name="Oval table, 6 seats" data-price="1860">Add this table to cart</button>
+            <button class="add-btn buy buy-oval-8" type="button" data-name="Oval table, 8 seats" data-price="2380">Add this table to cart</button>
+          </div>
+        </div>
+
+        <div class="plan-wrap reveal">
+          <div class="plan">
+            <span class="plan-axis plan-axis-x">460 cm</span>
+            <span class="plan-axis plan-axis-y">320 cm</span>
+            <div class="plan-table"></div>
+            <span class="chair c1"></span>
+            <span class="chair c2"></span>
+            <span class="chair c3"></span>
+            <span class="chair c4"></span>
+            <span class="chair c5"></span>
+            <span class="chair c6"></span>
+            <span class="chair c7"></span>
+            <span class="chair c8"></span>
+          </div>
+          <p class="plan-note">Floor plan of a 4.6 × 3.2 m dining room. Keep at least 90 cm behind every chair.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="woods section" id="woods">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">Three woods</p>
+            <h2>Know the grain <em>you sit at.</em></h2>
+          </div>
+          <p class="head-note">We work with three European and American hardwoods. Hover a sample to compare them.</p>
+        </div>
+
+        <div class="wood-list reveal">
+          <article class="wood wood-oak">
+            <div class="wood-sample"></div>
+            <div class="wood-body">
+              <h3>White oak</h3>
+              <p>Strong, honest and calm. Oak darkens to warm honey over the years.</p>
+              <div class="meter">
+                <span>Hardness</span>
+                <div class="bar"><i style="--level: 88%"></i></div>
+              </div>
+              <div class="meter">
+                <span>Colour change</span>
+                <div class="bar"><i style="--level: 60%"></i></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="wood wood-walnut">
+            <div class="wood-sample"></div>
+            <div class="wood-body">
+              <h3>Black walnut</h3>
+              <p>Deep chocolate tones with a soft figure. Walnut slowly lightens to bronze.</p>
+              <div class="meter">
+                <span>Hardness</span>
+                <div class="bar"><i style="--level: 66%"></i></div>
+              </div>
+              <div class="meter">
+                <span>Colour change</span>
+                <div class="bar"><i style="--level: 45%"></i></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="wood wood-ash">
+            <div class="wood-sample"></div>
+            <div class="wood-body">
+              <h3>Nordic ash</h3>
+              <p>Pale, bright and lively grain. Ash keeps a fresh Scandinavian look.</p>
+              <div class="meter">
+                <span>Hardness</span>
+                <div class="bar"><i style="--level: 84%"></i></div>
+              </div>
+              <div class="meter">
+                <span>Colour change</span>
+                <div class="bar"><i style="--level: 25%"></i></div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="craft section" id="craft">
+      <div class="container craft-grid">
+        <div class="craft-text">
+          <p class="eyebrow">From log to dinner</p>
+          <h2>How a Halden <em>is made.</em></h2>
+
+          <ol class="steps">
+            <li class="step">
+              <span class="step-num">01</span>
+              <div>
+                <h3>Selecting the boards</h3>
+                <p>The maker chooses every board by hand and lays the top out like a puzzle of grain.</p>
+              </div>
+            </li>
+            <li class="step">
+              <span class="step-num">02</span>
+              <div>
+                <h3>Cutting the joints</h3>
+                <p>Mortises and tenons are cut to a tenth of a millimetre and fitted dry first.</p>
+              </div>
+            </li>
+            <li class="step">
+              <span class="step-num">03</span>
+              <div>
+                <h3>Shaping and sanding</h3>
+                <p>Edges are softened by hand plane, then sanded in five grits until silky.</p>
+              </div>
+            </li>
+            <li class="step">
+              <span class="step-num">04</span>
+              <div>
+                <h3>Oiling and signing</h3>
+                <p>Three coats of hardwax oil, then the maker signs the underside of the top.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+
+        <div class="craft-media">
+          <img class="shot shot-1" src="https://images.unsplash.com/photo-1617098709804-705581f844eb?auto=format&fit=crop&w=1000&q=80" alt="Brown wooden table and chairs">
+          <img class="shot shot-2" src="https://images.unsplash.com/photo-1657524398377-567034729507?auto=format&fit=crop&w=1000&q=80" alt="Dining room table with chairs">
+          <img class="shot shot-3" src="https://images.unsplash.com/photo-1616486886892-ff366aa67ba4?auto=format&fit=crop&w=1000&q=80" alt="Black and white dining table and chairs">
+          <img class="shot shot-4" src="https://images.unsplash.com/photo-1723750290151-164cb19ebab7?auto=format&fit=crop&w=1000&q=80" alt="Dining room with a table and chairs">
+          <span class="craft-badge">Signed by<br>the maker</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="journal section" id="journal">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">Journal</p>
+            <h2>Notes from <em>the workshop.</em></h2>
+          </div>
+          <p class="head-note">Short reads about wood, rooms and the people who gather around tables.</p>
+        </div>
+
+        <div class="posts reveal">
+          <article class="post post-large">
+            <div class="post-img">
+              <img src="https://images.unsplash.com/photo-1773578978637-c9771e7a9913?auto=format&fit=crop&w=1200&q=80" alt="Modern dining and living area with large windows">
+            </div>
+            <div class="post-body">
+              <span class="post-meta">Guide &middot; 6 min read</span>
+              <h3>How much space does a dining table really need?</h3>
+              <p>A simple rule for chairs, walkways and lights, with plans for small and large rooms.</p>
+              <a href="#planner" class="post-link">Try the planner</a>
+            </div>
+          </article>
+
+          <article class="post">
+            <div class="post-img">
+              <img src="https://images.unsplash.com/photo-1602872030490-4a484a7b3ba6?auto=format&fit=crop&w=800&q=80" alt="White wooden table with chairs">
+            </div>
+            <div class="post-body">
+              <span class="post-meta">Care &middot; 4 min read</span>
+              <h3>Caring for an oiled top</h3>
+              <a href="#woods" class="post-link">Read about woods</a>
+            </div>
+          </article>
+
+          <article class="post">
+            <div class="post-img">
+              <img src="https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=800&q=80" alt="Green and white dining table and chairs">
+            </div>
+            <div class="post-body">
+              <span class="post-meta">Rooms &middot; 5 min read</span>
+              <h3>Pairing chairs that do not match</h3>
+              <a href="#collection" class="post-link">See the tables</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq section">
+      <div class="container faq-grid">
+        <div>
+          <p class="eyebrow">Questions</p>
+          <h2>Before <em>you order.</em></h2>
+        </div>
+        <div class="faq-list reveal">
+          <details>
+            <summary>How long does it take to make my table?</summary>
+            <p>Most tables are ready in four to six weeks. We send photos from the workshop when your top is glued and when it is oiled.</p>
+          </details>
+          <details>
+            <summary>Can I order a custom size?</summary>
+            <p>Yes. Any length from 120 to 320 cm is possible. Use the planner, then tell us your exact size at checkout.</p>
+          </details>
+          <details>
+            <summary>What if the table gets a scratch?</summary>
+            <p>Oiled wood can be repaired at home. Lightly sand the spot and add a little oil. Every order comes with a care kit.</p>
+          </details>
+          <details>
+            <summary>Do you deliver and assemble?</summary>
+            <p>Delivery is free. Two of our team carry the table in, attach the legs and take all packaging away.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="account section" id="account">
+      <div class="container account-grid">
+        <div class="account-text">
+          <p class="eyebrow">Your account</p>
+          <h2>Save your plans and <em>follow your order.</em></h2>
+          <p>Sign in to keep your table plans, see workshop photos and track delivery.</p>
+        </div>
+
+        <div class="account-card reveal">
+          <form class="login" id="loginForm" novalidate>
+            <label for="loginName">Name</label>
+            <input type="text" id="loginName" placeholder="Your name" autocomplete="username">
+            <label for="loginPassword">Password</label>
+            <input type="password" id="loginPassword" placeholder="Your password" autocomplete="current-password">
+            <button type="submit" class="btn btn-dark"><span>Sign in</span></button>
+          </form>
+
+          <div class="welcome" id="welcome">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" /></svg>
+            <h3>Welcome back</h3>
+            <p id="welcomeText"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <p class="footer-word">Halden</p>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#collection">Collection</a></li>
+          <li><a href="#planner">Planner</a></li>
+          <li><a href="#woods">Woods</a></li>
+          <li><a href="#craft">Craft</a></li>
+          <li><a href="#journal">Journal</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Halden Workshop. Solid wood tables, made to order.</p>
+        <p>Photos from Unsplash</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="overlay" id="overlay"></div>
+
+  <aside class="cart" id="cart" aria-label="Shopping cart">
+    <div class="cart-head">
+      <h3>Your cart</h3>
+      <button class="cart-close" id="cartClose" type="button" aria-label="Close cart">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" /></svg>
+      </button>
+    </div>
+    <p class="cart-empty" id="cartEmpty">Your cart is empty. Choose a table from the collection.</p>
+    <ul class="cart-items" id="cartItems"></ul>
+    <div class="cart-foot">
+      <div class="cart-total">
+        <span>Total</span>
+        <b id="cartTotal">$0</b>
+      </div>
+      <button class="btn btn-dark checkout" id="checkout" type="button"><span>Checkout</span></button>
+    </div>
+  </aside>
+
+  <div class="alert" id="alert" hidden>
+    <div class="alert-box" role="alertdialog" aria-labelledby="alertTitle">
+      <span class="alert-icon" id="alertIcon">!</span>
+      <h3 id="alertTitle">Title</h3>
+      <p id="alertText">Message</p>
+      <button type="button" id="alertButton">OK</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
